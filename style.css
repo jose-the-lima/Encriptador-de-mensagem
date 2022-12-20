@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #e5e5e5;
+}
+header{
+    padding: 20px 50px;
+}
+
+.area-cripto {
+    display:flex;
+    width: 100%;
+    padding: 20px;
+}
+
+.cripto-centralization{
+    width: 60%;
+    margin: 0 0 0 150px;
+}
+
+.cripto-block {
+    border:none;
+    width: 100%;
+    height: 400px;
+    resize: none;
+    display: block;
+    /* margin: 0 0 0 200px; */
+    font-size: 30px;
+    padding: 10px;
+    outline: none;
+}
+
+
+
+.cripto-description{
+    margin: 10px 0;
+    font-size: 14px;
+    display:flex;
+    align-items:center;
+}
+.cripto-description span {
+    margin: 0 10px 0 0;
+}
+
+.bt{
+    font-size: 18px;
+    width: 48.5%;
+    margin: 0 1.5% 0 0;
+    padding: 20px 0px;
+    border: 1px solid #0A3871;
+    border-radius: 25px;
+    transition: .5s all ease;
+    cursor:pointer;
+}
+.bt:last-child{
+    margin: 0 0 0 1.5%;
+}
+
+.bt-criptografar {
+    background-color: #0A3871;
+    color: #ffffff;
+}
+
+.bt-criptografar:hover {
+    background-color: #ffffff;
+    color: #0A3871;
+}
+
+.bt-descriptografar {
+    color: #0A3871;
+    background-color: #ffffff;
+}
+
+.bt-descriptografar:hover {
+    background-color: #0A3871;
+    color: #ffffff;
+}
+
+
+
+/* Block result */
+
+.block-result {
+    display: inline-block;
+    background-color: #ffffff;
+    background-image: url(images/High\ quality\ products\ 1\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: 240px;
+    background-position:center;
+    height: 600px;
+    width: 25%;
+    margin: -90px 25px 0 60px;
+    border-radius: 25px;
+    position: relative;
+    padding: 10px 15px;
+}
+
+.result-message-area{
+    height: 80%;
+}
+
+.result-info {
+    position: absolute;
+    text-align:center;
+    bottom: 90px;
+    padding: 0 30px;
+    height: 120px;
+}
+
+.result-info h2 {
+    margin-bottom: 20px;
+}
+
+
+
+.bt-copy {
+    bottom: 20px;
+    font-size: 18px;
+    margin: 0 1.5% 0 0;
+    padding: 20px 0px;
+    border: 1px solid #0A3871;
+    border-radius: 25px;
+    transition: .5s all ease;
+    cursor:pointer;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.invisivel {
+    display:none;
+}
+.sem-nada {
+    background-image: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .cripto-centralization {
+        margin: 0 0 0 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .cripto-centralization {
+        margin: 0 0 0 0;
+    }
+
+    .block-result {
+        width: 35%;
+        margin: -90px 25px 0 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .area-cripto {
+        flex-direction: column;
+    }
+    .cripto-centralization {
+        width: 100%;
+    }
+
+    .block-result {
+        width: 100%;
+        height: auto;
+        background:none;
+        background-color: #ffffff;
+        margin: 0;
+        margin-top: 25px;
+        padding: 20px 10px;
+    }
+    .result-info {
+        position: static;
+        text-align:center;
+        padding: 20px 0px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bt:last-child {
+        margin: 0;
+    }
+    .bt {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+}

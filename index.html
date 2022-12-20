@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Alura challenge - decodificador de texto</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>
+                <img src="images/Frame 6.svg" alt="Vogal 'A' da alura"/>
+            </h1>
+        </header>
+
+        <main>
+            <!--Estou pensando em fazer dessa section relativa, e os itens dentro como absolute ou no caso mais facil apenas um margin da esquerda mesmo-->
+            <section class="area-cripto">
+                <div class="cripto-centralization">
+                    <textarea class="cripto-block" placeholder="Digite seu texto"></textarea>
+
+                    <div>
+                        <p class="cripto-description">
+                            <span><img src="images/bi_exclamation-circle-fill.svg"/></span> 
+                            Apenas letras minúsculas e sem acento
+                        </p>
+
+                        <div class="cripto-buttons">
+                            <button class="bt bt-criptografar">Criptografar</button><button class="bt bt-descriptografar">Descriptografar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-result">
+                    <div class="result-message-area invisivel"></div>
+
+                    <div class="result-info">
+                        <h2>Nenhuma mensagem encontrada</h2>
+                        <p class="result-p">Digite um texto que deseja criptografar ou descriptografar</p>
+                    </div>
+
+                    <div class="center">
+                        <button class="bt-copy invisivel">Copiar</button>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
