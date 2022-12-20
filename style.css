@@ -87,7 +87,7 @@ header{
 .block-result {
     display: inline-block;
     background-color: #ffffff;
-    background-image: url(images/High\ quality\ products\ 1\ 1.svg);
+    background-image: url(images/bg-image.svg);
     background-repeat: no-repeat;
     background-size: 240px;
     background-position:center;
@@ -101,6 +101,7 @@ header{
 
 .result-message-area{
     height: 80%;
+    padding: 10px 0 20px;
 }
 
 .result-info {
@@ -130,11 +131,36 @@ header{
     vertical-align: bottom;
 }
 
+.bt-copy:hover{
+    background-color: #0A3871;
+    color: #FFFFFF;
+    transition: .5s all ease;
+}
+
 .invisivel {
     display:none;
 }
 .sem-nada {
     background-image: none;
+}
+
+footer{
+    border-top:3px solid #0A3871;
+    border-bottom:3px solid #0A3871;
+    background-color: #ffffff;
+    color: #0A3871;
+    padding: 30px 0px;
+    text-align: center;
+}
+.icons{
+    margin-top:20px;
+}
+.icons li{
+    display:inline-block;
+}
+.icons-profile{
+    width:30px;
+    height:30px;
 }
 
 @media screen and (max-width: 1050px) {
