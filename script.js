@@ -1,17 +1,3 @@
-// Regras.
-
-/*
-    1 - pegar os elementos da tela que vão sofrer reviravoltas
-
-    2 - pegar o valor do textarea
-
-    3 - mandar esse valor para a função que ele escolher na hora que apertar o botão
-
-    4 - o segundo lado sempre vai ser a saida
-
-    5 - precisará mudar alguns estilos, e tirar o background-image também.
-*/
-
 const inputMessage = document.querySelector(".cripto-block");
 
 const btEncript = document.querySelector(".bt-criptografar");
@@ -26,7 +12,6 @@ const copyButton = document.querySelector(".bt-copy");
 
 const letras = [["a", "ai"], ["e", "enter"], ["i", "imes"], ["o", "ober"], ["u", "ufat"]];
 
-// Funções
 function desativarBackground() {
     backgroundMessageArea.classList.add("sem-nada");
     infoMessageArea.classList.add("invisivel");
@@ -62,32 +47,6 @@ function encriptar() {
         
         console.log(letras[i][0], letras[i][1]);
         console.log(value + " depois");
-    }
-
-    verificaValor(value);
-}
-
-function encriptar2() {
-    let value = inputMessage.value.toLowerCase();
-    let valueReference = value;
-    let valueLength = value.length;
-    let vogaisIniciais = letras.map((letra) => {
-        return letra[0];
-    });
-
-    for(let i = 0; i < valueLength; i++) {
-        if(vogaisIniciais.includes(value[i])){
-            let letraSubstituta;
-            for(let i = 0; i < letras.length; i++){
-                if(valueReference[i] == letras[i][0]) {
-                    letraSubstituta = letras[i][1];
-                    console.log("Essa é a letra substituta " + letraSubstituta)
-                    break;
-                }
-            }
-
-            value = value.replace(value[i], letraSubstituta);
-        }
     }
 
     verificaValor(value);
