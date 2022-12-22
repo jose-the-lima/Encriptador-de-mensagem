@@ -10,7 +10,7 @@ const infoMessageArea = document.querySelector(".result-info");
 const messageArea = document.querySelector(".result-message-area");
 const copyButton = document.querySelector(".bt-copy");
 
-const letras = [["a", "ai"], ["e", "enter"], ["i", "imes"], ["o", "ober"], ["u", "ufat"]];
+const letras = [["a", "mnbbvcx"], ["e", "zytz"], ["i", "kkkh"], ["o", "sdfsd"], ["u", "yytyp"], ["é", "lkjpç"], ["á", "kgfpdff"], ["í", "gtrfhyrt"], ["ó", "dfdfcvbc"], ["ú", "ttttghkm"], ["â", "hhfgkklpk"], ["ê", "qwwrtttybv"]];
 
 function desativarBackground() {
     backgroundMessageArea.classList.add("sem-nada");
