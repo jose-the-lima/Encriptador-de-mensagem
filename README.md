@@ -1,5 +1,7 @@
 # Encriptador-de-mensagem
 
+![Alura challenge - decodificador de texto - Google Chrome 2022-12-22 08-55-07](https://user-images.githubusercontent.com/120755345/209129889-c6ea5f84-cd18-47d3-b725-d8bcdb00d665.gif)
+
 ## Imagens do projeto
 
 <img src="https://user-images.githubusercontent.com/120755345/209124910-a6036004-a7b2-494b-8f9f-e347737e723b.png" alt="" width="70%"/>
